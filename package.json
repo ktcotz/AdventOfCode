@@ -1,0 +1,16 @@
+{
+  "name": "aoc-root",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Kamil Naskręt (ktcotz)",
+"scripts": {
+  "start": "tsx src/index.ts",
+  "watch": "nodemon --watch src --ext ts,tsx --exec \"npm start --\" --"
+},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.0.0"
+  }
+}
